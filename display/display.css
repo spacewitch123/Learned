@@ -1,0 +1,14 @@
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  display: block;
+  width: 10%;
+}
+
+div {
+  background-color: coral;
+  border: 1px black solid;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
