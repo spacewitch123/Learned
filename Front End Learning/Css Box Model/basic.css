@@ -1,0 +1,36 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+#one {
+  background-color: pink;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  margin-bottom: 20px;
+}
+
+#two {
+  background-color: plum;
+  border-color: blue;
+  border-width: 5px;
+  border-style: inset;
+}
+#three {
+  background-color: salmon;
+  /* border-color: beige;
+  border-width: 5px;
+  border-style: dashed; */
+  border: 3px dotted black;
+}
+h1 {
+  width: 100px;
+  background-color: pink;
+}
+
+button {
+  padding: 10px 20px 15px 30px;
+}

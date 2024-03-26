@@ -1,0 +1,27 @@
+h1 {
+  width: 300px;
+  border: 2px solid black;
+  color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  background-color: #5f9ea0;
+  margin: 20px auto;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 0.7em;
+}
+h1:nth-of-type(1) {
+  background-color: rosybrown;
+}
+
+h1:nth-of-type(2) {
+  background-color: rgb(143, 188, 163);
+}
+
+h1:nth-of-type(3) {
+  background-color: rgb(143, 148, 188);
+}
+
+h1:nth-of-type(4) {
+  background-color: rgb(186, 18, 18);
+}

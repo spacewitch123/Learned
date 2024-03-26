@@ -1,0 +1,19 @@
+div {
+  background-color: rgba(31, 31, 87, 0.536);
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#Middle {
+  background-color: cadetblue;
+}
+
+#Static #Middle {
+  position: relative;
+}
+
+#Absolute #Middle {
+  position: absolute;
+}

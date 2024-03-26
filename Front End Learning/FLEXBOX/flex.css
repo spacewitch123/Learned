@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #003049;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: plum;
+  flex: 1 2 200px;
+  border: 2px solid black;
+}
+
+main .maincontent {
+  background-color: greenyellow;
+  flex: 2 1 600px;
+}
